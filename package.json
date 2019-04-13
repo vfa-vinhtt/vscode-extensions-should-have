@@ -1,0 +1,52 @@
+{
+    "categories": [
+        "Extension Packs"
+    ],
+    "description": "Includes the most important extensions to get you started with your team in Visual Studio Code.",
+    "displayName": "VFA VinhTT Extensions Should Have",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "extensionPack": [
+        "CoenraadS.bracket-pair-colorizer",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "ecmel.vscode-html-css",
+        "esbenp.prettier-vscode",
+        "felixfbecker.php-debug",
+        "felixfbecker.php-intellisense",
+        "felixfbecker.php-pack",
+        "HookyQR.minify",
+        "jakebathman.mysql-syntax",
+        "joelday.docthis",
+        "kokororin.vscode-phpfmt",
+        "lukasz-wronski.ftp-sync",
+        "mechatroner.rainbow-csv",
+        "mikestead.dotenv",
+        "mrmlnc.vscode-autoprefixer",
+        "msjsdiag.debugger-for-chrome",
+        "neilbrayfield.php-docblocker",
+        "oderwat.indent-rainbow",
+        "onecentlin.laravel-blade",
+        "rafa-acioly.laravel-helpers",
+        "richie5um2.vscode-sort-json",
+        "robinbentley.sass-indented",
+        "ryannaddy.laravel-artisan",
+        "Shan.code-settings-sync",
+        "shanoor.vscode-nginx",
+        "Tyriar.sort-lines",
+        "vfa-vinhtt.vfa-vintt-extension-pack",
+        "vscode-icons-team.vscode-icons"
+    ],
+    "icon": "code.png",
+    "name": "vfa-vinhtt-extensions-should-have",
+    "publisher": "vfa-vinhtt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vfa-vinhtt/vscode-extensions-should-have"
+    },
+    "scripts": {
+        "deploy": "vsce package"
+    },
+    "version": "0.0.1"
+}
